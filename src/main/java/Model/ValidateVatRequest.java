@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class ValidateVatRequest {
 
-    public String countryCode = "EL";
+    public CountryCode countryCode;
     public String vatNumber;
     
     
